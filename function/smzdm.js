@@ -68,6 +68,7 @@ async function start() {
             await notify.sendNotify("什么值得买签到-" + new Date().toLocaleDateString(), content);
             console.log("什么值得买签到-" + content)
         }else{
+            await notify.sendNotify("什么值得买签到-" + new Date().toLocaleDateString(), content);
             console.log("什么值得买签到-" + content)
         }
     }else{
