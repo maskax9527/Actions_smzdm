@@ -72,8 +72,8 @@ async function start() {
             console.log("什么值得买签到-" + content)
         }
     }else{
-        await notify.sendNotify("什么值得买签到-" + new Date().toLocaleDateString(), content);
-        console.log("什么值得买签到-" + content)
+        // await notify.sendNotify("什么值得买签到-" + new Date().toLocaleDateString(), content);
+        console.log("什么值得买签到-不推送消息" + content)
     }
 
     //运行完成后，删除下载的文件
